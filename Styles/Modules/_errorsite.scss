@@ -1,0 +1,21 @@
+.wrapper .container {
+    box-sizing: border-box;
+    width: 70%;
+    height: 70vh;
+    border: 10px solid black;
+    text-align: center;
+    margin: 20vh auto 0;
+    padding: 40px;
+
+    h1 {
+        color: orangered;
+        font-weight: bold;
+        font-size: 3em;
+    }
+
+    p {
+        color: white;
+        font-weight: bold;
+        font-size: 1.6em;
+    }
+}

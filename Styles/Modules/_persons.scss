@@ -1,0 +1,56 @@
+.theteam {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+
+    .person {
+        box-sizing: border-box;
+        width: 60%;
+        height: 30vh;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        color: white;
+        border: 6px solid black;
+
+        h1 {
+            color: orangered;
+        }
+    }
+
+    .per0 {
+        .image {
+            float: left;
+            width: 30%;
+            height: 100%;
+
+            img {
+                width: auto;
+                height: 100%;
+                transform: scaleX(-1);
+            }
+        }
+
+        .information {
+            text-align: right;
+            margin: 30px;
+        }
+    }
+
+    .per1 {
+        .information {
+            float: left;
+            margin: 30px;
+        }
+
+        .image {
+            float: right;
+            width: 30%;
+            height: 100%;
+
+            img {
+                width: auto;
+                height: 100%;
+            }
+        }
+    }
+}

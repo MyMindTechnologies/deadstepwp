@@ -1,0 +1,27 @@
+.footer {
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+
+    .container {
+        margin-top: 40vh;
+        margin-left: 100px;
+        color: white;
+
+        h1 {
+            font-size: 1.2em;
+        }
+
+        .person {
+            margin-left: 20px;
+            font-size: 1em;
+
+            .information {
+                margin-left: 20px;
+                font-size: .9em;
+            }
+        }
+    }
+}
